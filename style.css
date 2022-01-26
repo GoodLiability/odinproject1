@@ -1,0 +1,163 @@
+/* *{outline: 1px solid red;} */
+
+.background{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 80%;
+    background-color:grey;
+    min-height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.htitle{
+    width: 20%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: auto; /*Pushing the right flexbox to the right, because if I was to split the boxes then there is no way I currently have written to keep one flush with left and one flush with right.*/
+    font-size: 3em;
+}
+
+.hright{
+    display: flex;
+    margin-right: 5%;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 2em;
+}
+
+.link{
+    color: white;
+}
+
+/*everything above this is the header*/
+
+.fp{
+    display: flex;
+    max-height: 25em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fptext{
+    margin-left: 10%;
+    margin-right: auto;
+    max-width: 40%;
+}
+
+.fptitle{font-size: 4em;}
+
+.fpinfo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.fpimg{
+    align-items: flex-end;
+    margin-right: 10%;
+    max-width: 25em;
+    max-height: 25em;
+}
+
+/*section above is the fp, refer to html for more info*/
+
+.space1{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    border: 1em solid #f8f8ff; /*used a border to fill in the gap if I just used only background*/
+    background: #f8f8ff;
+}
+
+/*space between secitons above*/
+
+.supinfo{
+    display: flex;
+    max-height: 25em;
+    margin: 5em;
+    justify-content: space-around;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    max-height: 15em;
+    max-width: 15em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.c1, .c2, .c3, .c4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* above section is the 4 card slots */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    border: 4em solid lightgray;
+    font-size: 2em;
+    background-color: lightgray;
+}
+
+.qauth{
+    text-align: right;
+}
+
+/* above is the quote stuff */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+    padding: 2em;
+    margin: 5em 25em 5em 25em;
+    justify-content: center;
+    border-radius: 1em ;
+}
+
+.cleft{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.ctop{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cright{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* above is the contact section */
+
+.footing{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    padding: 1.5em;
+}
